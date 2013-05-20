@@ -1,0 +1,3 @@
+This is a checkout of cyanogenmod 7.2 from source with blissc proprietary files and device files necessary to build cyanogenmod for the HTC Rhyme CDMA.
+
+Note: currently the build will fail due to libaudioalsa.so not being in out/target/product/blissc/obj/lib and out/target/product/blissc/system/lib , if you copy the file there from vendor/htc/blissc/proprietary and resume the build it will complete successfully.
